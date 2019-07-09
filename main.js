@@ -6,5 +6,5 @@ var input = inputs[0];
 
 
 button.onclick = function(){
-    alert("Hello " + input.value + "!😊");
+    document.getElementById("hello").innerHTML= "Hello "+input.value + "!😊";
 };
